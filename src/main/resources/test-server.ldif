@@ -1,0 +1,33 @@
+version: 1
+
+dn: ou=groups,dc=springframework,dc=org
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=people,dc=springframework,dc=org
+objectClass: top
+objectClass: organizationalUnit
+ou: people
+
+dn: uid=ben,ou=people,dc=springframework,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: Ben Alex
+sn: Alex
+uid: ben
+userPassword:: e1NIQX1uRkNlYldqeGZhTGJISEcxUWs1VVU0dHJidlE9
+
+dn: dc=springframework,dc=org
+objectclass: extensibleObject
+objectclass: top
+objectclass: domain
+dc: springframework
+
+dn: ou=subgroups,ou=groups,dc=springframework,dc=org
+objectClass: top
+objectClass: organizationalUnit
+ou: subgroups
+

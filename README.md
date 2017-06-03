@@ -13,3 +13,6 @@ Prerequisite:
 Open http://localhost:8080/ in browser
 It will prompt for username password, enter smp and smp123 respectively.
 
+It's a working example. To run this start apacheDS on 10389 port and import/create using apache directory studio using \initial\src\main\resources\test-server.ldif  
+hit http://localhost:8080/ it will prompt UI to enter username password. Enter ben benspass
+You will get a page with "Welcome to the home page!"

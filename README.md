@@ -1,11 +1,11 @@
 # ldap-spring-authentication
 Simple ldap authentication using Spring boot, Spring security and ldap.
 
-Prerequisite 
+Prerequisite: 
   1. Installed and run apache directory server on local with port 10389
   2. import file initial.ldif file
   
- Clone and run project 
+ Clone and run project:  
     1. git clone 
     2. mvn clean install
     3. mvn spring-boot:run
